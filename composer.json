@@ -12,7 +12,8 @@
     "type": "package",
     "require": {
 		    "php": ">=7.1",
-        "botnyx/sfe-shared-core": "dev-master as 0.1"
+        "botnyx/sfe-shared-core": "dev-master as 0.1",
+        "botnyx/sfe-cdn-core": "dev-master as 0.1"
     },
     "require-dev": {
 		    "phpunit/phpunit": "6.*"
