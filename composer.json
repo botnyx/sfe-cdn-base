@@ -1,0 +1,31 @@
+{
+    "name": "botnyx/sfe-cdn-base",
+    "description": "sfe cdn base.",
+    "keywords": ["sfe", "composer", "package"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Jerry Hopper",
+            "email": "hopper.jerry@gmail.com"
+        }
+    ],
+    "type": "package",
+    "require": {
+		    "php": ">=7.1",
+        "botnyx/sfe-shared-core": "dev-master as 0.1",
+        "botnyx/sfe-frontend-core": "dev-master as 0.1"
+    },
+    "require-dev": {
+		    "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Botnyx\\Sfe\\Cdn\\Base\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Botnyx\\Sfe\\Cdn\\Core\\Setup\\Frontend::postInstall"
+        ]
+    }
+}
