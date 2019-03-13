@@ -1,2 +1,7 @@
 _notes
 vendor/*
+public_html/assets/*
+!public_html/assets/readme.md
+!public_html/assets/fonts/example.font-awesome/readme.md
+!public_html/assets/icons/example.entypo/readme.md
+!public_html/assets/js/bootstrap/example.bootstrap-3.3.7/readme.md
