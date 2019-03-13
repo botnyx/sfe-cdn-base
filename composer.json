@@ -24,7 +24,7 @@
     },
     "scripts": {
         "post-autoload-dump": [
-            "Botnyx\\Sfe\\Cdn\\Core\\Setup\\Frontend::postInstall"
+            "Botnyx\\Sfe\\Cdn\\Core\\Setup\\Cdn::postInstall"
         ]
     }
 }
